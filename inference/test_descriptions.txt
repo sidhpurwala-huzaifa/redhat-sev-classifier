@@ -1,0 +1,10 @@
+Buffer overflow vulnerability in Apache HTTP server allows remote code execution with administrator privileges
+Cross-site scripting (XSS) vulnerability in web application form validation allows session hijacking
+SQL injection vulnerability in login form allows unauthorized database access
+Denial of service vulnerability through resource exhaustion in XML parser
+Information disclosure through verbose error messages exposing system paths
+Privilege escalation vulnerability in sudo configuration allows local users to gain root access
+Remote code execution vulnerability in image processing library through malformed PNG files
+Path traversal vulnerability allows attackers to read arbitrary files outside web root
+Insecure deserialization vulnerability in Java application allows remote code execution
+Memory corruption vulnerability in network driver allows local privilege escalation
