@@ -127,7 +127,7 @@ The script automatically detects and uses the best available device.
 | `secbert_inference.py` | Main inference script with CLI and API |
 | `demo_inference.py` | Quick demo with sample predictions |
 | `test_descriptions.txt` | Sample vulnerability descriptions for testing |
-| `README_Inference.md` | This documentation |
+| `README.md` | This documentation |
 
 ## 🧪 Testing Your Setup
 
