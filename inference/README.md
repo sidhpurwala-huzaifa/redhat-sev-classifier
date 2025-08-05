@@ -76,14 +76,6 @@ severity, confidence, all_scores = inference.predict_severity(
 print(f"All scores: {all_scores}")
 ```
 
-### 4. Interactive Demo
-
-```bash
-python demo_inference.py
-```
-
-This runs a quick demo with sample descriptions to verify the model performance.
-
 ## 🎯 Severity Classes
 
 The model predicts four severity levels:
@@ -125,15 +117,12 @@ The script automatically detects and uses the best available device.
 | File | Purpose |
 |------|---------|
 | `secbert_inference.py` | Main inference script with CLI and API |
-| `demo_inference.py` | Quick demo with sample predictions |
 | `test_descriptions.txt` | Sample vulnerability descriptions for testing |
-| `README_Inference.md` | This documentation |
+| `README.md` | This documentation |
 
 ## 🧪 Testing Your Setup
 
 ```bash
-# Quick compatibility test
-python demo_inference.py
 
 # Test with sample descriptions
 python secbert_inference.py --file test_descriptions.txt
